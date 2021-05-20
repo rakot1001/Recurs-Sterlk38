@@ -18,6 +18,7 @@ function getFullName(){
 
 User.prototype = new getFullName();
 const a = 1;
+const b = 3;
 function createRandomUsers(amount = 1) {
    const  db = [];
    for(let i = 0; i < amount; i++) {
